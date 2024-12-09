@@ -4,7 +4,7 @@ Questo progetto è un semplice gioco che utilizza le API di OpenAI per generare 
 
 ## Requisiti
 
-- Ambiente di sviluppo configurato con **Vite** e **TypeScript**.
+- Ambiente di sviluppo con Node.js e npm.
 - Una chiave API di OpenAI
 
 ## Struttura del Progetto
@@ -78,3 +78,10 @@ Se la parola segreta è `cane`, il prompt potrebbe essere:
 Il modello potrebbe rispondere con:
 
 > "È un animale che abbaia e ama le ossa."
+
+## Installazione e debug
+
+```bash
+npm install
+npm run dev
+```
